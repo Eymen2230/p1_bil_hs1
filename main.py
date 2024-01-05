@@ -41,9 +41,9 @@
 # yanalAlan = yukseklik* tabanCevresi
 # toplamAlan = yanalAlan + (2 * tabanAlani)
 # hacim = tabanAlani * yukseklik
-yaricap = input("Yarıçapı giriniz: ")
-pi = 3.14
-cevre = 2 * pi * yaricap
-hacim = pi * yaricap * yaricap
-print("Dairenin Hacmi: " + str(hacim))
-print("Dairenin Çevresi: " + str(cevre))
+# yaricap = input("Yarıçapı giriniz: ")
+# pi = 3.14
+# cevre = 2 * pi * yaricap
+# hacim = pi * yaricap * yaricap
+# print("Dairenin Hacmi: " + str(hacim))
+# print("Dairenin Çevresi: " + str(cevre))
