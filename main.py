@@ -4,4 +4,4 @@
 # print("Merhaba " + input("Merhaba,Adın Nedir?") + "!")
 # print(len(input("Merhaba, Adın Nedir?")))
 name = input("Merhaba Adın Nedir?")
-print(name)
+print(name)mbnb
