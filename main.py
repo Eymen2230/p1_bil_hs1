@@ -131,3 +131,34 @@
  #   print(f"Kamikazeye binebilirsiniz! Fiyat {biletfiyati} TL")
 #else:
  #   print("Lunaparkta herhangi bir araca binmek için boyunuz yetmiyor!")
+# sayi = int(input("Lütfen tek mi çift mi olduğunu öğrenmek için bir esayı giriniz"))
+# kalan = sayi % 2
+# if kalan == 0:
+#     print("Girdiğiniz sayı bir çift sayıdır!")
+# else:
+#     print("Girdiğiniz sayı bir tek sayıdır!")
+# boy = float(input("Boyunuzu giriniz (m):  "))
+# kilo = float(input("Kilonuzu giriniz (kg): "))
+
+# vki = int(kilo/boy**2)
+# if vki < 18.5:
+#     print("Vücut Kitle İndeksiniz: {vki} , Zayıfsınız!")
+# elif vki > 18.5 and < 25:
+#           print("Vücut Kitle İndeksiniz: {vki} , Kilonuz Normal!")
+# elif vki > 25 and < 30:
+#        print("Vücut Kitle İndeksiniz: {vki} , Kilolusunuz!")
+# elif vki > 30 and < 35:
+#        print("Vücut Kitle İndeksiniz: {vki} , Aşırı Kilolusunuz!")
+# elif vki > 35:
+#     print("Vücut Kitle İndeksiniz: {vki} , Obezsiniz!")
+# yil = int(input("Hangi yılı kontrol etmek istiyorsunuz?"))
+# if yil % 4 == 0:
+#     if yil % 100 == 0:
+#         if yil % 400 == 0:
+#             print(f"{yil} bir artık yıldır!")
+#         else:
+#             print(f"{yil} bir artık yıl değildir!")
+#     else:
+#         print(f"{yil} bir artık yıl değildir!")
+# else:
+#     print(f"{yil} bir artık yıl değildir!")
